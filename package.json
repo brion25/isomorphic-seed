@@ -1,0 +1,24 @@
+{
+  "name": "isomorphic-seed",
+  "version": "1.0.0",
+  "description": "My personal seed for isomorphic webapps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brion25/isomorphic-seed.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "reat-router"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brion25/isomorphic-seed/issues"
+  },
+  "homepage": "https://github.com/brion25/isomorphic-seed#readme"
+}
