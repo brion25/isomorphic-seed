@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js  --config webpack.config.js --progress --colors",
     "watch": "node ./node_modules/webpack/bin/webpack.js  --config webpack.config.js --progress --colors --watch",
-    "start" : "node ./node_modules/concurrently/src/main.js --kill-others \"npm run watch\" \"node ./index.js\"",
+    "server" : "node ./index.js",
+    "start" : "node ./node_modules/concurrently/src/main.js --kill-others \"npm run watch\" \"npm run server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
